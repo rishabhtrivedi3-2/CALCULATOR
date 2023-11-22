@@ -1,0 +1,54 @@
+* body {
+  background-color: rgb(240, 148, 27);
+}
+.square {
+  border: 3px solid red;
+  width: 50%;
+  height: 100%;
+  display: grid;
+  padding: 10px 10px 10em 10px;
+  margin: 0px auto;
+  background-color: rgb(43, 40, 40);
+  position: sticky;
+}
+#displayarea {
+  background-color: grey;
+  float: left;
+  border: 2px solid blue;
+  padding: 11px 91% 3em 0px;
+  text-decoration: underline;
+  color: wheat;
+}
+button:nth-child(1) {
+  color: white;
+  text-decoration: double;
+}
+button:nth-child(3) {
+  color: blue;
+}
+#p-1 {
+  border: 20px solid orange;
+  padding: 11px 11px 12px 11px;
+  display: grid;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin:-24px 18px 33px 30px;
+    padding: 0px 15px 15px 45px;
+}
+.btn {
+  height: 60%;
+  background-color: rgb(189, 60, 60);
+  width: 70%;
+  border-radius: 40%;
+  padding: 10px 10px 10px 10px;
+  border-color: blue green orange red;
+  font-size: 1em;
+  font-weight: bold;
+}
+.btn:nth-child(1) {
+  float: left;
+  margin-top: 25px;
+  background-color: brown;
+}
